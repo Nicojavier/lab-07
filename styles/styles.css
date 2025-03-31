@@ -2,6 +2,9 @@ body    {
     margin:0px;
 }
 
+h1, h2, h3, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .containerHeader    {
     display: flex;
@@ -9,16 +12,49 @@ body    {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    background-color: red;
+    background-color: teal;
     
 }
 
-.containerMain   {
+.containerMain1   {
     display: flex;
-    height: 500px;
     padding: 30px;
 }
 
-.itemHeader2    {
+.containerMain2   {
+    display: flex;
+    padding: 30px 30px 0px 30px;
+}
 
+.containerHobbies1    {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 50px;
+}
+
+.itemHobbies img   {
+    height: 200px;
+}
+
+.containerHobbies2  {
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.itemHobbies2   {
+    width: 200px;
+    background-color: yellowgreen;
+    text-align: center;
+    color: white;
+}
+
+footer  {
+    margin-top: 50px;
+    height: 100px;
+    background-color: black;
 }
